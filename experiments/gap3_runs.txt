@@ -1,0 +1,486 @@
+======== gap3_N100000_M128 naive static ========
+/home/codetech/22i-2327_F_FinalProject/experiments/bin/kmeans_static_gap1 compilation time: May 11 2026 01:17:39
+Git branch: master
+Other (probably g++) compiler
+sizeof(OPTFLOAT): 4
+sizeof(EXPFLOAT): 8
+Minimal number of huge pages (threshold) per NUMA Node: 1.00
+NUMA optimizations on
+Loading dataset /home/codetech/22i-2327_F_FinalProject/experiments/data_gap3/gap3_N100000_M128.bin... 100000 vectors, 128 features
+Loading took 0.0711136 seconds
+Number of clusters: 256
+First reclustering in YinyangMod at iteration: 5
+Seeed of rng: 42
+OpenMP version with 8 threads
+Forgy initialization used
+NaiveKMA
+Initialization time: 0.000294975 seconds
+Avg distance calculations ratio: 100
+17 total iterations
+k-means execution time: 9.01404 seconds
+Highest absolute difference between thread 0 and real time: Process 0 Delta: -4.931 Relative: 120.794%
+Wall clock resolution: 1e-09 seconds
+Thread clock resolution: 1e-09 seconds
+k-means iteration time: 0.530238 seconds
+0 k-means runs
+Best MSE (SSE) 9.872666798 (987266.679819584)
+Total program execution time: 9.09614 seconds
+======== gap3_N100000_M128 elkan static ========
+/home/codetech/22i-2327_F_FinalProject/experiments/bin/kmeans_static_gap1 compilation time: May 11 2026 01:17:39
+Git branch: master
+Other (probably g++) compiler
+sizeof(OPTFLOAT): 4
+sizeof(EXPFLOAT): 8
+Minimal number of huge pages (threshold) per NUMA Node: 1.00
+NUMA optimizations on
+Loading dataset /home/codetech/22i-2327_F_FinalProject/experiments/data_gap3/gap3_N100000_M128.bin... 100000 vectors, 128 features
+Loading took 0.0514405 seconds
+Number of clusters: 256
+First reclustering in YinyangMod at iteration: 5
+Seeed of rng: 42
+OpenMP version with 8 threads
+Forgy initialization used
+ElkanKMA
+Initialization time: 0.000149475 seconds
+Avg distance calculations ratio: 31.8309
+17 total iterations
+k-means execution time: 4.32035 seconds
+Highest absolute difference between thread 0 and real time: Process 0 Delta: -2.313 Relative: 115.196%
+Wall clock resolution: 1e-09 seconds
+Thread clock resolution: 1e-09 seconds
+k-means iteration time: 0.254138 seconds
+0 k-means runs
+Best MSE (SSE) 9.872523348 (987252.334761620)
+Total program execution time: 4.46708 seconds
+======== gap3_N100000_M128 elkan guided ========
+/home/codetech/22i-2327_F_FinalProject/experiments/bin/kmeans_guided_gap1 compilation time: May 11 2026 01:17:57
+Git branch: master
+Other (probably g++) compiler
+sizeof(OPTFLOAT): 4
+sizeof(EXPFLOAT): 8
+Minimal number of huge pages (threshold) per NUMA Node: 1.00
+NUMA optimizations on
+Loading dataset /home/codetech/22i-2327_F_FinalProject/experiments/data_gap3/gap3_N100000_M128.bin... 100000 vectors, 128 features
+Loading took 0.038849 seconds
+Number of clusters: 256
+First reclustering in YinyangMod at iteration: 5
+Seeed of rng: 42
+OpenMP version with 8 threads
+Forgy initialization used
+ElkanKMA
+Initialization time: 0.00017545 seconds
+Avg distance calculations ratio: 31.7908
+17 total iterations
+k-means execution time: 4.09984 seconds
+Highest absolute difference between thread 0 and real time: Process 0 Delta: -2.145 Relative: 109.756%
+Wall clock resolution: 1e-09 seconds
+Thread clock resolution: 1e-09 seconds
+k-means iteration time: 0.241167 seconds
+0 k-means runs
+Best MSE (SSE) 9.872662786 (987266.278569698)
+Total program execution time: 4.19247 seconds
+======== gap3_N100000_M16 naive static ========
+/home/codetech/22i-2327_F_FinalProject/experiments/bin/kmeans_static_gap1 compilation time: May 11 2026 01:17:39
+Git branch: master
+Other (probably g++) compiler
+sizeof(OPTFLOAT): 4
+sizeof(EXPFLOAT): 8
+Minimal number of huge pages (threshold) per NUMA Node: 1.00
+NUMA optimizations on
+Loading dataset /home/codetech/22i-2327_F_FinalProject/experiments/data_gap3/gap3_N100000_M16.bin... 100000 vectors, 16 features
+Loading took 0.0167681 seconds
+Number of clusters: 256
+First reclustering in YinyangMod at iteration: 5
+Seeed of rng: 42
+OpenMP version with 8 threads
+Forgy initialization used
+NaiveKMA
+Initialization time: 0.000643114 seconds
+Avg distance calculations ratio: 100
+47 total iterations
+k-means execution time: 4.72543 seconds
+Highest absolute difference between thread 0 and real time: Process 0 Delta: -2.578 Relative: 120.099%
+Wall clock resolution: 1e-09 seconds
+Thread clock resolution: 1e-09 seconds
+k-means iteration time: 0.100541 seconds
+0 k-means runs
+Best MSE (SSE) 0.714205546 (71420.554552108)
+Total program execution time: 4.75122 seconds
+======== gap3_N100000_M16 elkan static ========
+/home/codetech/22i-2327_F_FinalProject/experiments/bin/kmeans_static_gap1 compilation time: May 11 2026 01:17:39
+Git branch: master
+Other (probably g++) compiler
+sizeof(OPTFLOAT): 4
+sizeof(EXPFLOAT): 8
+Minimal number of huge pages (threshold) per NUMA Node: 1.00
+NUMA optimizations on
+Loading dataset /home/codetech/22i-2327_F_FinalProject/experiments/data_gap3/gap3_N100000_M16.bin... 100000 vectors, 16 features
+Loading took 0.0254039 seconds
+Number of clusters: 256
+First reclustering in YinyangMod at iteration: 5
+Seeed of rng: 42
+OpenMP version with 8 threads
+Forgy initialization used
+ElkanKMA
+Initialization time: 0.000168621 seconds
+Avg distance calculations ratio: 5.67133
+47 total iterations
+k-means execution time: 3.29002 seconds
+Highest absolute difference between thread 0 and real time: Process 0 Delta: -1.854 Relative: 129.081%
+Wall clock resolution: 1e-09 seconds
+Thread clock resolution: 1e-09 seconds
+k-means iteration time: 0.0700004 seconds
+0 k-means runs
+Best MSE (SSE) 0.714205546 (71420.554566279)
+Total program execution time: 3.40474 seconds
+======== gap3_N100000_M16 elkan guided ========
+/home/codetech/22i-2327_F_FinalProject/experiments/bin/kmeans_guided_gap1 compilation time: May 11 2026 01:17:57
+Git branch: master
+Other (probably g++) compiler
+sizeof(OPTFLOAT): 4
+sizeof(EXPFLOAT): 8
+Minimal number of huge pages (threshold) per NUMA Node: 1.00
+NUMA optimizations on
+Loading dataset /home/codetech/22i-2327_F_FinalProject/experiments/data_gap3/gap3_N100000_M16.bin... 100000 vectors, 16 features
+Loading took 0.0244651 seconds
+Number of clusters: 256
+First reclustering in YinyangMod at iteration: 5
+Seeed of rng: 42
+OpenMP version with 8 threads
+Forgy initialization used
+ElkanKMA
+Initialization time: 0.000159638 seconds
+Avg distance calculations ratio: 5.67133
+47 total iterations
+k-means execution time: 2.81132 seconds
+Highest absolute difference between thread 0 and real time: Process 0 Delta: -1.519 Relative: 117.501%
+Wall clock resolution: 1e-09 seconds
+Thread clock resolution: 1e-09 seconds
+k-means iteration time: 0.0598153 seconds
+0 k-means runs
+Best MSE (SSE) 0.714205545 (71420.554534614)
+Total program execution time: 2.8891 seconds
+======== gap3_N100000_M2 naive static ========
+/home/codetech/22i-2327_F_FinalProject/experiments/bin/kmeans_static_gap1 compilation time: May 11 2026 01:17:39
+Git branch: master
+Other (probably g++) compiler
+sizeof(OPTFLOAT): 4
+sizeof(EXPFLOAT): 8
+Minimal number of huge pages (threshold) per NUMA Node: 1.00
+NUMA optimizations on
+Loading dataset /home/codetech/22i-2327_F_FinalProject/experiments/data_gap3/gap3_N100000_M2.bin... 100000 vectors, 2 features
+Loading took 0.0162039 seconds
+Number of clusters: 256
+First reclustering in YinyangMod at iteration: 5
+Seeed of rng: 42
+OpenMP version with 8 threads
+Forgy initialization used
+NaiveKMA
+Initialization time: 0.000117687 seconds
+Avg distance calculations ratio: 100
+82 total iterations
+k-means execution time: 13.3161 seconds
+Highest absolute difference between thread 0 and real time: Process 0 Delta: -7.364 Relative: 123.710%
+Wall clock resolution: 1e-09 seconds
+Thread clock resolution: 1e-09 seconds
+k-means iteration time: 0.162392 seconds
+0 k-means runs
+Best MSE (SSE) 0.000638241 (63.824142235)
+Total program execution time: 13.3387 seconds
+======== gap3_N100000_M2 elkan static ========
+/home/codetech/22i-2327_F_FinalProject/experiments/bin/kmeans_static_gap1 compilation time: May 11 2026 01:17:39
+Git branch: master
+Other (probably g++) compiler
+sizeof(OPTFLOAT): 4
+sizeof(EXPFLOAT): 8
+Minimal number of huge pages (threshold) per NUMA Node: 1.00
+NUMA optimizations on
+Loading dataset /home/codetech/22i-2327_F_FinalProject/experiments/data_gap3/gap3_N100000_M2.bin... 100000 vectors, 2 features
+Loading took 0.0211864 seconds
+Number of clusters: 256
+First reclustering in YinyangMod at iteration: 5
+Seeed of rng: 42
+OpenMP version with 8 threads
+Forgy initialization used
+ElkanKMA
+Initialization time: 9.6478e-05 seconds
+Avg distance calculations ratio: 0.297865
+82 total iterations
+k-means execution time: 2.74585 seconds
+Highest absolute difference between thread 0 and real time: Process 0 Delta: -1.584 Relative: 136.258%
+Wall clock resolution: 1e-09 seconds
+Thread clock resolution: 1e-09 seconds
+k-means iteration time: 0.0334859 seconds
+0 k-means runs
+Best MSE (SSE) 0.000638241 (63.824070042)
+Total program execution time: 2.84688 seconds
+======== gap3_N100000_M2 elkan guided ========
+/home/codetech/22i-2327_F_FinalProject/experiments/bin/kmeans_guided_gap1 compilation time: May 11 2026 01:17:57
+Git branch: master
+Other (probably g++) compiler
+sizeof(OPTFLOAT): 4
+sizeof(EXPFLOAT): 8
+Minimal number of huge pages (threshold) per NUMA Node: 1.00
+NUMA optimizations on
+Loading dataset /home/codetech/22i-2327_F_FinalProject/experiments/data_gap3/gap3_N100000_M2.bin... 100000 vectors, 2 features
+Loading took 0.0176846 seconds
+Number of clusters: 256
+First reclustering in YinyangMod at iteration: 5
+Seeed of rng: 42
+OpenMP version with 8 threads
+Forgy initialization used
+ElkanKMA
+Initialization time: 6.4421e-05 seconds
+Avg distance calculations ratio: 0.297932
+82 total iterations
+k-means execution time: 2.69483 seconds
+Highest absolute difference between thread 0 and real time: Process 0 Delta: -1.552 Relative: 135.767%
+Wall clock resolution: 1e-09 seconds
+Thread clock resolution: 1e-09 seconds
+k-means iteration time: 0.0328638 seconds
+0 k-means runs
+Best MSE (SSE) 0.000638200 (63.820036139)
+Total program execution time: 2.77033 seconds
+======== gap3_N100000_M32 naive static ========
+/home/codetech/22i-2327_F_FinalProject/experiments/bin/kmeans_static_gap1 compilation time: May 11 2026 01:17:39
+Git branch: master
+Other (probably g++) compiler
+sizeof(OPTFLOAT): 4
+sizeof(EXPFLOAT): 8
+Minimal number of huge pages (threshold) per NUMA Node: 1.00
+NUMA optimizations on
+Loading dataset /home/codetech/22i-2327_F_FinalProject/experiments/data_gap3/gap3_N100000_M32.bin... 100000 vectors, 32 features
+Loading took 0.0249413 seconds
+Number of clusters: 256
+First reclustering in YinyangMod at iteration: 5
+Seeed of rng: 42
+OpenMP version with 8 threads
+Forgy initialization used
+NaiveKMA
+Initialization time: 7.4606e-05 seconds
+Avg distance calculations ratio: 100
+30 total iterations
+k-means execution time: 4.18744 seconds
+Highest absolute difference between thread 0 and real time: Process 0 Delta: -2.294 Relative: 121.145%
+Wall clock resolution: 1e-09 seconds
+Thread clock resolution: 1e-09 seconds
+k-means iteration time: 0.139581 seconds
+0 k-means runs
+Best MSE (SSE) 1.984808601 (198480.860076964)
+Total program execution time: 4.22144 seconds
+======== gap3_N100000_M32 elkan static ========
+/home/codetech/22i-2327_F_FinalProject/experiments/bin/kmeans_static_gap1 compilation time: May 11 2026 01:17:39
+Git branch: master
+Other (probably g++) compiler
+sizeof(OPTFLOAT): 4
+sizeof(EXPFLOAT): 8
+Minimal number of huge pages (threshold) per NUMA Node: 1.00
+NUMA optimizations on
+Loading dataset /home/codetech/22i-2327_F_FinalProject/experiments/data_gap3/gap3_N100000_M32.bin... 100000 vectors, 32 features
+Loading took 0.0224076 seconds
+Number of clusters: 256
+First reclustering in YinyangMod at iteration: 5
+Seeed of rng: 42
+OpenMP version with 8 threads
+Forgy initialization used
+ElkanKMA
+Initialization time: 0.000144211 seconds
+Avg distance calculations ratio: 11.7163
+30 total iterations
+k-means execution time: 2.50374 seconds
+Highest absolute difference between thread 0 and real time: Process 0 Delta: -1.408 Relative: 128.516%
+Wall clock resolution: 1e-09 seconds
+Thread clock resolution: 1e-09 seconds
+k-means iteration time: 0.0834579 seconds
+0 k-means runs
+Best MSE (SSE) 1.984817081 (198481.708140492)
+Total program execution time: 2.59456 seconds
+======== gap3_N100000_M32 elkan guided ========
+/home/codetech/22i-2327_F_FinalProject/experiments/bin/kmeans_guided_gap1 compilation time: May 11 2026 01:17:57
+Git branch: master
+Other (probably g++) compiler
+sizeof(OPTFLOAT): 4
+sizeof(EXPFLOAT): 8
+Minimal number of huge pages (threshold) per NUMA Node: 1.00
+NUMA optimizations on
+Loading dataset /home/codetech/22i-2327_F_FinalProject/experiments/data_gap3/gap3_N100000_M32.bin... 100000 vectors, 32 features
+Loading took 0.0236344 seconds
+Number of clusters: 256
+First reclustering in YinyangMod at iteration: 5
+Seeed of rng: 42
+OpenMP version with 8 threads
+Forgy initialization used
+ElkanKMA
+Initialization time: 0.000128297 seconds
+Avg distance calculations ratio: 11.7163
+30 total iterations
+k-means execution time: 2.49249 seconds
+Highest absolute difference between thread 0 and real time: Process 0 Delta: -1.399 Relative: 128.027%
+Wall clock resolution: 1e-09 seconds
+Thread clock resolution: 1e-09 seconds
+k-means iteration time: 0.083083 seconds
+0 k-means runs
+Best MSE (SSE) 1.984817081 (198481.708146900)
+Total program execution time: 2.5842 seconds
+======== gap3_N100000_M64 naive static ========
+/home/codetech/22i-2327_F_FinalProject/experiments/bin/kmeans_static_gap1 compilation time: May 11 2026 01:17:39
+Git branch: master
+Other (probably g++) compiler
+sizeof(OPTFLOAT): 4
+sizeof(EXPFLOAT): 8
+Minimal number of huge pages (threshold) per NUMA Node: 1.00
+NUMA optimizations on
+Loading dataset /home/codetech/22i-2327_F_FinalProject/experiments/data_gap3/gap3_N100000_M64.bin... 100000 vectors, 64 features
+Loading took 0.0362086 seconds
+Number of clusters: 256
+First reclustering in YinyangMod at iteration: 5
+Seeed of rng: 42
+OpenMP version with 8 threads
+Forgy initialization used
+NaiveKMA
+Initialization time: 0.000217095 seconds
+Avg distance calculations ratio: 100
+24 total iterations
+k-means execution time: 5.78157 seconds
+Highest absolute difference between thread 0 and real time: Process 0 Delta: -3.047 Relative: 111.463%
+Wall clock resolution: 1e-09 seconds
+Thread clock resolution: 1e-09 seconds
+k-means iteration time: 0.240899 seconds
+0 k-means runs
+Best MSE (SSE) 4.597352393 (459735.239251494)
+Total program execution time: 5.82684 seconds
+======== gap3_N100000_M64 elkan static ========
+/home/codetech/22i-2327_F_FinalProject/experiments/bin/kmeans_static_gap1 compilation time: May 11 2026 01:17:39
+Git branch: master
+Other (probably g++) compiler
+sizeof(OPTFLOAT): 4
+sizeof(EXPFLOAT): 8
+Minimal number of huge pages (threshold) per NUMA Node: 1.00
+NUMA optimizations on
+Loading dataset /home/codetech/22i-2327_F_FinalProject/experiments/data_gap3/gap3_N100000_M64.bin... 100000 vectors, 64 features
+Loading took 0.0312036 seconds
+Number of clusters: 256
+First reclustering in YinyangMod at iteration: 5
+Seeed of rng: 42
+OpenMP version with 8 threads
+Forgy initialization used
+ElkanKMA
+Initialization time: 9.8415e-05 seconds
+Avg distance calculations ratio: 20.0393
+23 total iterations
+k-means execution time: 3.06244 seconds
+Highest absolute difference between thread 0 and real time: Process 0 Delta: -1.656 Relative: 117.682%
+Wall clock resolution: 1e-09 seconds
+Thread clock resolution: 1e-09 seconds
+k-means iteration time: 0.13315 seconds
+0 k-means runs
+Best MSE (SSE) 4.597758866 (459775.886640310)
+Total program execution time: 3.16931 seconds
+======== gap3_N100000_M64 elkan guided ========
+/home/codetech/22i-2327_F_FinalProject/experiments/bin/kmeans_guided_gap1 compilation time: May 11 2026 01:17:57
+Git branch: master
+Other (probably g++) compiler
+sizeof(OPTFLOAT): 4
+sizeof(EXPFLOAT): 8
+Minimal number of huge pages (threshold) per NUMA Node: 1.00
+NUMA optimizations on
+Loading dataset /home/codetech/22i-2327_F_FinalProject/experiments/data_gap3/gap3_N100000_M64.bin... 100000 vectors, 64 features
+Loading took 0.0295006 seconds
+Number of clusters: 256
+First reclustering in YinyangMod at iteration: 5
+Seeed of rng: 42
+OpenMP version with 8 threads
+Forgy initialization used
+ElkanKMA
+Initialization time: 9.8313e-05 seconds
+Avg distance calculations ratio: 19.4586
+24 total iterations
+k-means execution time: 3.50134 seconds
+Highest absolute difference between thread 0 and real time: Process 0 Delta: -1.893 Relative: 117.704%
+Wall clock resolution: 1e-09 seconds
+Thread clock resolution: 1e-09 seconds
+k-means iteration time: 0.145889 seconds
+0 k-means runs
+Best MSE (SSE) 4.597550216 (459755.021646738)
+Total program execution time: 3.58468 seconds
+======== gap3_N100000_M8 naive static ========
+/home/codetech/22i-2327_F_FinalProject/experiments/bin/kmeans_static_gap1 compilation time: May 11 2026 01:17:39
+Git branch: master
+Other (probably g++) compiler
+sizeof(OPTFLOAT): 4
+sizeof(EXPFLOAT): 8
+Minimal number of huge pages (threshold) per NUMA Node: 1.00
+NUMA optimizations on
+Loading dataset /home/codetech/22i-2327_F_FinalProject/experiments/data_gap3/gap3_N100000_M8.bin... 100000 vectors, 8 features
+Loading took 0.0150707 seconds
+Number of clusters: 256
+First reclustering in YinyangMod at iteration: 5
+Seeed of rng: 42
+OpenMP version with 8 threads
+Forgy initialization used
+NaiveKMA
+Initialization time: 5.9927e-05 seconds
+Avg distance calculations ratio: 100
+48 total iterations
+k-means execution time: 4.12854 seconds
+Highest absolute difference between thread 0 and real time: Process 0 Delta: -2.417 Relative: 141.253%
+Wall clock resolution: 1e-09 seconds
+Thread clock resolution: 1e-09 seconds
+k-means iteration time: 0.0860112 seconds
+0 k-means runs
+Best MSE (SSE) 0.164237016 (16423.701556589)
+Total program execution time: 4.15435 seconds
+======== gap3_N100000_M8 elkan static ========
+/home/codetech/22i-2327_F_FinalProject/experiments/bin/kmeans_static_gap1 compilation time: May 11 2026 01:17:39
+Git branch: master
+Other (probably g++) compiler
+sizeof(OPTFLOAT): 4
+sizeof(EXPFLOAT): 8
+Minimal number of huge pages (threshold) per NUMA Node: 1.00
+NUMA optimizations on
+Loading dataset /home/codetech/22i-2327_F_FinalProject/experiments/data_gap3/gap3_N100000_M8.bin... 100000 vectors, 8 features
+Loading took 0.0212881 seconds
+Number of clusters: 256
+First reclustering in YinyangMod at iteration: 5
+Seeed of rng: 42
+OpenMP version with 8 threads
+Forgy initialization used
+ElkanKMA
+Initialization time: 6.6561e-05 seconds
+Avg distance calculations ratio: 2.3207
+48 total iterations
+k-means execution time: 2.8219 seconds
+Highest absolute difference between thread 0 and real time: Process 0 Delta: -1.605 Relative: 131.891%
+Wall clock resolution: 1e-09 seconds
+Thread clock resolution: 1e-09 seconds
+k-means iteration time: 0.0587897 seconds
+0 k-means runs
+Best MSE (SSE) 0.164237016 (16423.701558052)
+Total program execution time: 2.92644 seconds
+======== gap3_N100000_M8 elkan guided ========
+/home/codetech/22i-2327_F_FinalProject/experiments/bin/kmeans_guided_gap1 compilation time: May 11 2026 01:17:57
+Git branch: master
+Other (probably g++) compiler
+sizeof(OPTFLOAT): 4
+sizeof(EXPFLOAT): 8
+Minimal number of huge pages (threshold) per NUMA Node: 1.00
+NUMA optimizations on
+Loading dataset /home/codetech/22i-2327_F_FinalProject/experiments/data_gap3/gap3_N100000_M8.bin... 100000 vectors, 8 features
+Loading took 0.0137591 seconds
+Number of clusters: 256
+First reclustering in YinyangMod at iteration: 5
+Seeed of rng: 42
+OpenMP version with 8 threads
+Forgy initialization used
+ElkanKMA
+Initialization time: 0.000127915 seconds
+Avg distance calculations ratio: 2.43171
+45 total iterations
+k-means execution time: 2.84764 seconds
+Highest absolute difference between thread 0 and real time: Process 0 Delta: -1.637 Relative: 135.148%
+Wall clock resolution: 1e-09 seconds
+Thread clock resolution: 1e-09 seconds
+k-means iteration time: 0.0632809 seconds
+0 k-means runs
+Best MSE (SSE) 0.164307284 (16430.728402354)
+Total program execution time: 2.92292 seconds

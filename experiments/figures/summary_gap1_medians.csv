@@ -1,0 +1,5 @@
+threads,median_static_all,median_guided_all,median_static_comparable,median_guided_comparable,comparable_pairs,total_pairs
+1,18.901800,18.863000,18.901800,18.863000,5,5
+2,11.364300,10.934400,11.364300,10.934400,5,5
+4,7.963730,7.912130,,,0,5
+8,8.665670,8.004450,,,0,5

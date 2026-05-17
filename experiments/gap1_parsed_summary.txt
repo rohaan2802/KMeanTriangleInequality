@@ -1,0 +1,38 @@
+Parsed 40 runs, 20 STATIC/GUIDED pairs from /home/codetech/22i-2327_F_FinalProject/experiments/gap1_medium_runs.txt
+
+--- OMP_NUM_THREADS=1 ---
+  comparable pairs (same iters & ~SSE): 5 / 5
+  median k-means time  static: 18.9018s  guided: 18.8630s
+  median ratio guided/static: 0.9943 (<1 means guided faster)
+  run1  OK  static 19.8992s it18  guided 18.9812s it18
+  run2  OK  static 18.9018s it18  guided 18.7937s it18
+  run3  OK  static 18.5809s it18  guided 19.2088s it18
+  run4  OK  static 18.3597s it18  guided 18.8630s it18
+  run5  OK  static 19.1302s it18  guided 18.3784s it18
+
+--- OMP_NUM_THREADS=2 ---
+  comparable pairs (same iters & ~SSE): 5 / 5
+  median k-means time  static: 11.3643s  guided: 10.9344s
+  median ratio guided/static: 0.9694 (<1 means guided faster)
+  run1  OK  static 11.7258s it18  guided 14.6158s it18
+  run2  OK  static 13.7322s it18  guided 11.1042s it18
+  run3  OK  static 11.0770s it18  guided 10.7382s it18
+  run4  OK  static 10.9009s it18  guided 10.7991s it18
+  run5  OK  static 11.3643s it18  guided 10.9344s it18
+
+--- OMP_NUM_THREADS=4 ---
+  comparable pairs (same iters & ~SSE): 0 / 5
+  run1  DIFF_PATH  static 7.8464s it17  guided 7.9705s it18
+  run2  DIFF_PATH  static 8.2195s it17  guided 7.9121s it18
+  run3  DIFF_PATH  static 7.9637s it17  guided 7.7480s it17
+  run4  DIFF_PATH  static 8.7567s it17  guided 7.6327s it17
+  run5  DIFF_PATH  static 7.8869s it17  guided 7.9910s it18
+
+--- OMP_NUM_THREADS=8 ---
+  comparable pairs (same iters & ~SSE): 0 / 5
+  run1  DIFF_PATH  static 8.0749s it17  guided 7.5843s it17
+  run2  DIFF_PATH  static 8.1985s it17  guided 8.0045s it18
+  run3  DIFF_PATH  static 8.6657s it17  guided 7.9342s it17
+  run4  DIFF_PATH  static 9.1880s it17  guided 8.3992s it18
+  run5  DIFF_PATH  static 8.7753s it17  guided 8.1880s it18
+
